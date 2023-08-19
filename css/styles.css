@@ -723,13 +723,13 @@ ul {
     fill: #ffffff;
 }
 
-.label-container {
+.modal-list-item-container {
     position: relative;
 
 }
 
-.label-container:hover,
-.label-container:focus {
+.modal-list-item-container:hover,
+.modal-list-item-container:focus {
     fill: #4D5AE5;
     border-radius: 4px;
     border: 1px solid #4D5AE5;
