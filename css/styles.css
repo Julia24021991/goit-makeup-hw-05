@@ -725,6 +725,7 @@ ul {
 
 .modal-list-item-container {
     position: relative;
+    margin-bottom: 8px;
 
 }
 
@@ -735,8 +736,6 @@ ul {
     border: 1px solid #4D5AE5;
     border-color: #4D5AE5;
 }
-
-textarea {}
 
 .modal-input {
     width: 100%;
