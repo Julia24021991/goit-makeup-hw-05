@@ -723,13 +723,13 @@ ul {
     fill: #ffffff;
 }
 
-.label-content {
+.label-container {
     position: relative;
 
 }
 
-.label-content:hover,
-.label-content:focus {
+.label-container:hover,
+.label-container:focus {
     fill: #4D5AE5;
     border-radius: 4px;
     border: 1px solid #4D5AE5;
@@ -815,11 +815,12 @@ textarea {}
     width: 16px;
 }
 
-.checkbox-container-input:checked {
+.checkbox-icon-svg:checked {
     background-color: var(--ocean, #404BBF);
     fill: #F4F4FD;
     border: none;
 }
+
 
 .checkbox-text {
     color: var(--lightslate, #8E8F99);
