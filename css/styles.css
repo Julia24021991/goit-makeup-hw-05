@@ -726,10 +726,9 @@ ul {
 .modal-list-item-container {
     position: relative;
     margin-bottom: 8px;
-
 }
 
-.modal-list-item-container:hover,
+
 .modal-list-item-container:focus {
     fill: #4D5AE5;
     border-radius: 4px;
