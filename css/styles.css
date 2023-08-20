@@ -604,6 +604,7 @@ ul {
 
 .footer-subscribe-icon {
     fill: #FFFFFF;
+    margin-left: 16px;
 
 }
 
@@ -635,7 +636,6 @@ ul {
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     color: #ffffff;
@@ -657,6 +657,7 @@ ul {
     transition: cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404bbf;
     cursor: pointer;
+
 }
 
 .backdrop.is-hidden {
