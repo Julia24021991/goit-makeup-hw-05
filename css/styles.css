@@ -650,6 +650,15 @@ ul {
     border: none;
 }
 
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+    border: 1px solid transparent;
+    transition-duration: 250ms;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #404bbf;
+    cursor: pointer;
+}
+
 .backdrop.is-hidden {
     visibility: hidden;
     opacity: 0;
@@ -881,14 +890,6 @@ input[type="checkbox"]:checked+.checkbox-text>.checkbox-icon {
     transition-duration: 250ms;
     transition: cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404bbf;
-    font-family: "Roboto",
-        sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #FFF;
-    letter-spacing: 0.04em;
-    font-weight: 500;
-    background: var(--iris, #4D5AE5);
     cursor: pointer;
 }
 
