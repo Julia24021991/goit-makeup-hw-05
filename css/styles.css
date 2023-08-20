@@ -730,19 +730,8 @@ ul {
 
 .modal-list-item-container {
     position: relative;
-    fill: currentColor;
 
 }
-
-.modal-list-item-container:hover,
-.modal-list-item-container:focus {
-    border-color: #4D5AE5;
-    fill: #4D5AE5;
-    border-radius: 4px;
-    border: 1px solid #4D5AE5;
-}
-
-
 
 .modal-input {
     width: 100%;
@@ -754,6 +743,18 @@ ul {
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: currentColor;
+}
+
+.modal-input:focus {
+    border-color: #4D5AE5;
+
+    border-radius: 4px;
+    border: 1px solid #4D5AE5;
+}
+
+.modal-input:focus+.modal-list-item-svg {
+    fill: #4D5AE5;
 }
 
 
@@ -777,6 +778,7 @@ ul {
     border-radius: 4px;
     border: 1px solid #4D5AE5;
     border-color: #4D5AE5;
+
 }
 
 .modal-input-comment::placeholder {
@@ -823,13 +825,13 @@ ul {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: none;
     height: 16px;
     width: 16px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin-right: 8px;
+    fill: transparent;
 }
 
 .checkbox-text-link {
@@ -841,11 +843,12 @@ ul {
     text-decoration-line: underline;
 }
 
-.checkbox-container-input:checked+.checkbox-icon {
+input[type="checkbox"]:checked+.checkbox-text>.checkbox-icon {
     background-color: var(--ocean, #404BBF);
     fill: #F4F4FD;
     border: none;
 }
+
 
 .checkbox-btn {
     display: block;
